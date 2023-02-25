@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Date Pipe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>
+        <p class="text">ANGULAR DATA PIPE</p>
+        <br />
+        {{ presentDate | date: 'longDate' }}
+        <br />
+        {{ presentDate | date: 'EEEE' }}
+        <br />
+        {{ todayO$ | async | date: 'mediumTime' }} {{ presentDate | date: 'z' }}
+      </h1>
+    </div>
+  </body>
+</html>

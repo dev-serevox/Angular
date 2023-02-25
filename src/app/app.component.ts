@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'pipes reactive';
-  present = new Date();
+  presentDate = new Date();
 
   todayO$ = new Observable<Date>((observer) => {
     setInterval(() => {

@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbd4b6 !important; /* fallback for old browsers */
+}
+
+div {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+div h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+p {
+  /*
+  color: #fff;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  */
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Righteous', cursive;
+}
+.text {
+  background: url(https://i.postimg.cc/sx8s2g5d/Nout-Gons.jpg);
+  color: transparent;
+  -webkit-background-clip: text;
+}
