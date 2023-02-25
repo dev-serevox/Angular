@@ -38,10 +38,10 @@ p {
   */
   text-align: center;
   font-size: 3.5rem;
-  font-family: 'Righteous', cursive;
+  font-family: 'Lilita One', cursive;
 }
 .text {
-  background: url(https://i.postimg.cc/sx8s2g5d/Nout-Gons.jpg);
+  background: url(https://stackblitz.com/files/pipes-reactives-ngm-2135/github/iamnoieee/Angular/main/src/assets/pic1.jpg);
   color: transparent;
   -webkit-background-clip: text;
 }
